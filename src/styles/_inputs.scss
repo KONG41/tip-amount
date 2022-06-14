@@ -1,0 +1,71 @@
+.inputs{
+  height:420.16px;
+  display: flex;
+  flex-flow:column wrap;
+  color: hsl(185.8, 14.2%, 42.9%);
+   &-title{
+    font-size:20px;
+    margin-bottom:10px;
+  }
+  &-bill{
+    margin-bottom: 1.25rem;
+  }
+  &-tips{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap:  wrap;
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  &-people{
+    margin-bottom: 1.25rem;
+    margin-top: 10px;
+    font-size: 24px;
+  }
+ &-custom{
+  width: 100px;
+  height: 35px;
+  border: none;
+  outline: none;;
+  // outline: 2px solid hsl(172, 67%, 45%);
+  background-color: #f3f8fb;
+  border-radius:5px;
+  margin-top: 12px;
+  font-size: 18px;
+  text-align: center;
+ }
+}
+.formGroup{
+   display: flex;
+   background-color: #f3f8fb;
+   border-radius:5px;
+   &:hover{
+    border: 2px solid hsl(172, 67%, 45%);
+   }
+   &:active{
+    border: 2px solid hsl(172, 67%, 45%);
+   }
+
+
+  >span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  >input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    font-size:24px;
+    text-align: right;
+    border-style: inset;
+    border: none;
+    border-radius:10px;
+    background-color:#f3f8fb;
+    outline: none;
+   
+  }
+}

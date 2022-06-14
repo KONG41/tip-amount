@@ -1,0 +1,25 @@
+.tipsBox {
+  background-color: #00494d;
+  width: 4.25rem;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.tipsBox:hover {
+  background-color: #c5e4e7;
+  color: #00494d;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+/*# sourceMappingURL=tipsBox.css.map */

@@ -1,0 +1,50 @@
+.display {
+  height: 420.16px;
+  font-size: 20px;
+}
+.display-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.display-box1 {
+  display: flex;
+  flex-flow: row;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+.display-title {
+  display: flex;
+  flex-flow: column;
+}
+.display-title > span {
+  color: rgba(236, 229, 229, 0.5);
+}
+.display-title > label {
+  color: white;
+}
+.display-tip {
+  font-size: 40px;
+  font-weight: bold;
+  color: #26c0ab;
+}
+.display-reset {
+  display: flex;
+  justify-content: center;
+}
+.display-reset > button {
+  color: #00494d;
+  background-color: #26c0ab;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 80%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}

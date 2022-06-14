@@ -1,0 +1,9 @@
+08/06/2022
+-reactjs: form, component, props, state*on the next
+-tailwind: color possition text
+https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+https://www.khanacademy.org
+https://dribbble.com/tags/reactjs
+https://blog.openreplay.com/3-ways-of-passing-multiple-parameters-to-the-onclick-handler-in-react
+On the next:  props, state, context, refs, and lifecycle
+hook: useState useEffect useContext
