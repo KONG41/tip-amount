@@ -15,57 +15,51 @@
     flex-direction: row;
     justify-content: start;
     flex-wrap:  wrap;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 24px;
+    margin-bottom: 20px;
   }
   &-people{
-    margin-bottom: 1.25rem;
-    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 24px;
   }
  &-custom{
   width: 100px;
   height: 35px;
   border: none;
-  outline: none;;
   // outline: 2px solid hsl(172, 67%, 45%);
   background-color: #f3f8fb;
   border-radius:5px;
   margin-top: 12px;
   font-size: 18px;
   text-align: center;
+  border-radius: 0 10px 10px 0px ;
+  outline-color: hsl(172, 67%, 45%);
  }
 }
 .formGroup{
    display: flex;
-   background-color: #f3f8fb;
-   border-radius:5px;
-   &:hover{
-    border: 2px solid hsl(172, 67%, 45%);
-   }
-   &:active{
-    border: 2px solid hsl(172, 67%, 45%);
-   }
-
-
   >span{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
+    background-color:#f3f8fb;
   }
   >input{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 10px;
+    padding: 15px;
     font-size:24px;
     text-align: right;
     border-style: inset;
     border: none;
-    border-radius:10px;
+    border-radius: 0 10px 10px 0px ;
     background-color:#f3f8fb;
-    outline: none;
+    outline-color: hsl(172, 67%, 45%);
    
   }
 }

@@ -2,16 +2,15 @@ import * as React from 'react';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 
-export default function ColorToggleButton() {
+export default function ColorToggleButton({values}) {
   const [alignment, setAlignment] = React.useState();
-  const [values,setValues] = React.useState();
+
   const handleChange = (event, newAlignment) => {
     setAlignment(newAlignment);
+    values=newAlignment;
+    console.log(values);
   };
-  const handleClick = (e) => {
-   setValues(e.target.value)
-   console.log(values)
-  }
+  
 
   return (
     <ToggleButtonGroup
