@@ -7,37 +7,47 @@ body {
 .container {
   width: 100%;
   height: 100vh;
-  background-color: rgb(197, 228, 231);
+  background-color: #c5e4e7;
   position: absolute;
 }
+
 .container-insideBox {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   width: 57.5rem;
   height: 30rem;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   border-radius: 20px;
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .container-insideBox-g1 {
   width: 50%;
   margin: 20px;
   padding: 10px;
 }
+
 .container-insideBox-g2 {
   width: 50%;
-  background-color: rgb(0, 73, 77);
+  background-color: #00494d;
   border-radius: 10px;
   margin: 5px;
   padding: 10px;
 }
 
 .gm {
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .p-1 {
@@ -49,80 +59,135 @@ body {
   font-size: 20px;
   margin: 18px;
 }
+
 .display-box {
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .display-box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
   padding-top: 30px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .display-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
 }
+
 .display-title > span {
   color: rgba(236, 229, 229, 0.5);
 }
+
 .display-title > label {
   color: white;
 }
+
 .display-tip {
   font-size: 40px;
   font-weight: bold;
-  color: rgb(38, 192, 171);
+  color: #26c0ab;
 }
+
 .display-reset {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .display-reset > button {
-  color: rgb(0, 73, 77);
-  background-color: rgb(38, 192, 171);
+  color: #00494d;
+  background-color: #26c0ab;
   border: none;
   border-radius: 10px;
   height: 30px;
   width: 80%;
   font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
   margin-bottom: 20px;
 }
 
 .inputs {
   height: 420.16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column wrap;
-  color: hsl(185.8deg, 14.2%, 42.9%);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  color: #5e7a7d;
 }
+
 .inputs-title {
   font-size: 20px;
   margin-bottom: 10px;
 }
+
 .inputs-bill {
   margin-bottom: 1.25rem;
 }
+
 .inputs-tips {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: start;
-  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 20px;
   font-size: 24px;
   margin-bottom: 20px;
 }
+
 .inputs-people {
   margin-bottom: 20px;
   margin-top: 20px;
   font-size: 24px;
 }
+
 .inputs-custom {
   width: 100px;
   height: 35px;
@@ -133,23 +198,39 @@ body {
   font-size: 18px;
   text-align: center;
   border-radius: 0 10px 10px 0px;
-  outline-color: hsl(172deg, 67%, 45%);
+  outline-color: #26c0ab;
 }
 
 .formGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .formGroup > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 5px;
   background-color: #f3f8fb;
 }
+
 .formGroup > input {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-right: 10px;
   padding: 15px;
   font-size: 24px;
@@ -158,11 +239,11 @@ body {
   border: none;
   border-radius: 0 10px 10px 0px;
   background-color: #f3f8fb;
-  outline-color: hsl(172deg, 67%, 45%);
+  outline-color: #26c0ab;
 }
 
 .tipsBox {
-  background-color: rgb(0, 73, 77);
+  background-color: #00494d;
   width: 6.25rem;
   border-radius: 0.5rem;
   color: aliceblue;
@@ -172,11 +253,17 @@ body {
   margin: 10px;
   cursor: pointer;
 }
+
 .tipsBox-change {
-  background-color: hsl(185.3deg, 41.5%, 83.9%);
-  color: hsl(183.1deg, 100%, 15.1%);
+  background-color: #c5e4e7;
+  color: #00494d;
+  -webkit-transition-property: all;
   transition-property: all;
-  transition-duration: 0.1s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}/*# sourceMappingURL=style.css.map */
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+/*# sourceMappingURL=style.css.map */

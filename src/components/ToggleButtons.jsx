@@ -7,8 +7,7 @@ export default function ColorToggleButton({values}) {
 
   const handleChange = (event, newAlignment) => {
     setAlignment(newAlignment);
-    values=newAlignment;
-    console.log(values);
+    values(newAlignment);
   };
   
 

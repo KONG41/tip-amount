@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 import Display from '../components/Display'
 import Inputs from '../components/Inputs'
 const Home = () => {
-  const [tipAmounts,setTipAmount] = useState([]);
-  const [totals,setTotal] = useState([]);
+  const [tipAmounts,setTipAmount] = useState(0);
+  const [totals,setTotal] = useState(0);
   const reset = () =>{
     setTipAmount(0);
     setTotal(0);
